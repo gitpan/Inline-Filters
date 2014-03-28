@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 97506e3462ed7324548d090a20620a70b9ef62ff Changes
+SHA1 0c43f549a8fc70f50bf2a92033cec955f7d80c96 Filters.pm
+SHA1 28d205a565763e6a77b0ef053caa5e7fc3b74ec6 Filters.pod
+SHA1 824802410e37afe73425ad1a6e4c7f354d168cc6 LICENSE
+SHA1 a1f72075513e1b2b29deb836e8217e683fe1660a MANIFEST
+SHA1 7102ca757a506fa5a9b7dc0020249c0cd76614f7 META.json
+SHA1 e51c76015852ae4492c53b0554d504a87bf1e650 META.yml
+SHA1 3c6d1be21d0d66850cf6cd2adcb4fec65f463256 Makefile.PL
+SHA1 a8e4edc17fd592c79459692060f4237d038e9d0b README
+SHA1 b3d58b8fd092b2d293ed57be9065c15b0e0ae309 t/Preprocess.t
+SHA1 31de00c4dc03c7b4b9e0dd7441b3e8986e47a693 t/Strip_Comments.t
+SHA1 00d48a73d60879478eb7f0e16131a07357ebb70b t/Strip_POD.t
+SHA1 04b35f8fe7dcba11f13bb7b5f4ac680663066d78 t/z_kwalitee.t
+SHA1 993b3cef8c06a70d99829facf76140864eb57240 t/z_meta.t
+SHA1 ade48e2b6098a0a329312543e1451e7e7fb7bc5f t/z_perl_minimum_version.t
+SHA1 ec1c00b26dc8c6702ebd722e3b323d2eae5dc2f5 t/z_pod-coverage.t
+SHA1 c8aa3903d3aba84c19bbd94d677620c758fa07d5 t/z_pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlM1llkACgkQmm2SYo/9yUJS7gCeP4h7nud9cPpXAfuALmJ8bijY
+COoAn0JsJhKRemiuRnK07q38Fgyf4S7g
+=87Ju
+-----END PGP SIGNATURE-----
